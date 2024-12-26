@@ -1,0 +1,139 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 1px 2px;
+}
+
+ul{
+    z-index: 10;
+    padding-right: 5%;
+    background-color: rgb(231, 231, 231);
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+}
+
+li{
+    float: left;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+li a{
+    color: rgb(44, 44, 44);
+    display: block;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    height: 60px;
+}
+
+li a:hover{
+    color: rgb(63, 72, 173);
+}
+
+#enter{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(46, 52, 122);
+    color: white;
+    font-size: large;
+    border: hidden;
+    border-radius: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+#enter:hover{
+    background-color: rgb(63, 72, 172);
+}
+
+#search{
+    width: 250px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px rgb(44, 44, 44);
+    border-radius: 20px;
+    padding-right: 5%;
+}
+
+#search::placeholder{
+    padding-left: 5px;
+    float: left;
+    color: rgb(44, 44, 44);
+}
+
+#header{
+    z-index: -1;
+    position: relative;
+    top: 120px;
+    text-indent: 70px;
+    color: rgb(46, 52, 122);
+}
+
+#gallery{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: hidden;
+    border-radius: 15px;
+    margin-left: 5%;
+    float: left;
+    width: 250px;
+}
+
+#gallery:hover{
+    box-shadow: none;
+    border: 1px gainsboro solid;
+    width: 252px;
+
+}
+  
+#gallery img{
+    border: hidden;
+    border-radius: 15px;
+    width: 250px;
+    height: 170px;
+}
+  
+#desc{
+    padding: 15px;
+    font-size: larger;
+}
+
+#buttons button{
+    background-color: rgb(46, 52, 122);
+    width: 60px;
+    height: 60px;
+    border: 1px rgb(204, 204, 204) solid;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    float: right;
+}
+
+#buttons button:hover{
+    background-color: rgb(79, 89, 194);
+}
+
+#row1{
+    height: 400px;
+    position: relative;
+    top: 200px;
+}
+
+#row2{
+    height: 400px;
+    position: relative;
+    top: 300px;
+}
+
+#row3{
+    height: 400px;
+    position: relative;
+    top: 400px;
+}
+
+b{
+    color: rgb(63, 72, 173);
+}
